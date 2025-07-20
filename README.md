@@ -32,19 +32,23 @@ cd chat-with-pdf
 ```
 ### 2. Create and Activate a Virtual Environment
 # For Windows
+```bash
 python -m venv venv
 venv\Scripts\activate
-
+```
 # For macOS/Linux
+```bash
 python3 -m venv venv
 source venv/bin/activate
-
+```
 ### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
-
+```
 ### 4. Run the App
+```bash
 streamlit run ui.py
-
+```
 ## 💡 How It Works
 
 1. **Upload a PDF** via the UI.
