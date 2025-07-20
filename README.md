@@ -14,10 +14,13 @@ A lightweight AI-powered app to **chat with PDF documents** using local embeddin
 ---
 ## 📁 Project Structure
 chat-with-pdf/
-├── app.py # backend logic using langchain
-├── ui.py # UI logic 
-├── model/ # SentenceTransformer model files
-├── requirements.txt # Project dependencies
+## 📁 Project Structure
+
+- `app.py` – Backend logic using LangChain
+- `ui.py` – Streamlit UI logic
+- `model/` – SentenceTransformer model files
+- `requirements.txt` – Project dependencies
+
 
 ---
 ## 🛠️ Setup Instructions
