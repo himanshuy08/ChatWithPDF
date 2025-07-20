@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebooks (if used)
+.ipynb_checkpoints/
+
+# Mac and Linux system files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Logs and outputs
+*.log
+*.out
+
+# Model and embedding files
+models/
+*.pt
+*.bin
+*.pkl
+
+# Streamlit cache
+.streamlit/
+.cache/
+
+# FAISS index (optional if generated dynamically)
+*.faiss
+index.faiss
+
+# PDF uploads or temp files
+uploads/
+temp/
