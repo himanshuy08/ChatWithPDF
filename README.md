@@ -26,10 +26,10 @@ chat-with-pdf/
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the Repository
-
+```bash
 git clone https://github.com/yourusername/chat-with-pdf.git
 cd chat-with-pdf
-
+```
 ### 2. Create and Activate a Virtual Environment
 # For Windows
 python -m venv venv
